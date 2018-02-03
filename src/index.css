@@ -1,0 +1,245 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12pt;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    text-indent: 0;
+    text-transform: none;
+    color: #474747;
+    font-family: 'Source Sans Pro';
+    line-height: 1.875;
+    font-weight: 200;
+    text-align: center;
+}
+
+body.invert-active p, body.invert-active .title, body.invert-active .fa, body.invert-active .button, body.invert-active h1{
+    color: white!important;
+}
+
+body.invert-active {
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 2rem;
+}
+
+li {
+    display: inline-block;
+    float: left;
+    padding: .5rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    max-width: 600px;
+    border: 0;
+    height: 1px;
+    background-color: #CCCCCC;
+}
+
+.small-divider {
+    width: 2rem;
+}
+
+#header {
+    height: 70px;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+#header li {
+    letter-spacing: 0.4rem;
+    font-size: 0.9em;
+    font-family: "Lucida Console", "Courier New";
+}
+
+.button {
+    display: block;
+    width: 6.5rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    padding: 0 1.125rem;
+    text-transform: uppercase;
+    font-size: 0.625em;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 0.225rem;
+    padding-left: 1.5rem;
+    font-weight: 400;
+    border-radius: 1.625rem;
+    color: #474747;
+    border: solid 1px #CCCCCC;
+}
+
+.icons {
+    display: block;
+    padding: 0;
+    width: 2rem;
+    border-radius: 50%;
+    border: solid 1px #CCCCCC;
+    color: black;margin-right: .3rem;
+}
+
+.fa {
+    color: #474747!important;
+}
+
+.title {
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #474747;
+    font-family: "Source Sans Pro";
+    letter-spacing: .4rem;
+    font-size: 1em;
+    line-height: 1.875;
+    font-weight: 400;
+    padding-top: 2.5rem;
+}
+
+#home {
+    padding: 1.5rem;
+}
+
+#home h1 {
+    letter-spacing: 0.4rem;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+}
+
+#home p {
+    font-size: 1em;
+    letter-spacing: 0.025rem;
+}
+
+.edit {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.edit img {
+    width: 9rem;
+    border-radius: 100%;
+    margin: 20px;
+    margin: 0;
+}
+
+/*hover effect on the images*/
+/*https://codepen.io/nxworld/pen/ZYNOBZ?q=on+hover&limit=all&type=type-pens*/
+/* Opacity #1 */
+.hover figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+	opacity: .5;
+}
+
+#works .title {
+    margin-bottom: 0;
+}
+
+.ptag-edit {
+    margin-top: 0;
+    padding-bottom: 1rem;
+}
+
+#contact .title {
+    margin-bottom: 0;
+}
+
+#about div {
+    max-width: 600px;
+    margin: auto;
+}
+
+/*#invert {
+    margin-left: 4rem;
+}
+
+#invert:hover {
+    background-color: #CCCCCC;
+    color: white;
+}*/
+
+.button:hover, #footer a:hover {
+    background-color: #CCCCCC;
+}
+
+#splash {
+    position: absolute;
+    z-index: 10001;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+#splash li {
+    position: absolute;
+    bottom: 50%;
+    right: 45%;
+}
+
+#modal {
+    border: 1px solid black;
+    z-index: 1001;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(255,255,255,.8)
+}
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    #header {
+        margin-top: 0!important;
+    }
+
+    #footer {
+        margin-bottom: 2rem;
+    }
+
+    #invert {
+        margin-left: 2rem;
+    }
+
+    #splash li {
+        right: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    #splash li {
+        right: 35%;
+    }
+}
