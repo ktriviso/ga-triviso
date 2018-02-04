@@ -25,7 +25,7 @@ body.invert-active p, body.invert-active .title, body.invert-active .fa, body.in
     color: white!important;
 }
 
-body.invert-active {
+body.invert-active{
     background-color: black;
 }
 
@@ -178,16 +178,7 @@ hr {
     margin: auto;
 }
 
-/*#invert {
-    margin-left: 4rem;
-}
-
-#invert:hover {
-    background-color: #CCCCCC;
-    color: white;
-}*/
-
-.button:hover, #footer a:hover {
+.button:hover, #footer li:hover {
     background-color: #CCCCCC;
 }
 
@@ -209,17 +200,39 @@ hr {
 }
 
 #modal {
-    border: 1px solid black;
     z-index: 1001;
     height: 100vh;
     width: 100%;
     position: absolute;
     top: 0;
-    background-color: rgba(255,255,255,.8)
+    background-color: white;
+}
+
+iframe {
+    position: absolute;
+    height: 70vh;
+    width: 75%;
+    right: 12%;
+    top: 15%;
+    /*overflow: hidden!important;
+    pointer-events:none;*/
+    /*scrolling="no"*/
+    background-color: white;
+}
+
+#closeModalButton{
+    position: absolute;
+    right: 8%;
+    bottom: 87%;
+    padding-left: .1rem;
+    padding-bottom: .1rem;
+}
+
+#closeModalButton:hover {
+    background-color: #CCCCCC;
 }
 
 @media only screen and (max-width: 700px) {
-    /* For mobile phones: */
     #header {
         margin-top: 0!important;
     }
@@ -238,7 +251,6 @@ hr {
 }
 
 @media only screen and (max-width: 500px) {
-    /* For mobile phones: */
     #splash li {
         right: 35%;
     }

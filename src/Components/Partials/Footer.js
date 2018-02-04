@@ -14,11 +14,18 @@ export default class Footer extends Component {
         this.setState({showModal: true})
     }
 
+    closeModal(){
+        this.setState({showModal: false})
+    }
+
     render() {
 
         const modalHtml = this.state.showModal ?
         <Modal>
-                <div id="modal">hi im a modal</div>
+            <div id="modal">
+                <iframe src="https://trump-project.herokuapp.com/" frameborder="0"></iframe>
+                <span className="icons" id="closeModalButton" onClick={this.closeModal.bind(this)}>x</span>
+            </div>
         </Modal>
         : null;
 
