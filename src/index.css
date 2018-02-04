@@ -159,6 +159,7 @@ hr {
 .hover figure:hover img {
 	opacity: .5;
 }
+/*end of hover effect*/
 
 #works .title {
     margin-bottom: 0;
@@ -214,9 +215,6 @@ iframe {
     width: 75%;
     right: 12%;
     top: 15%;
-    /*overflow: hidden!important;
-    pointer-events:none;*/
-    /*scrolling="no"*/
     background-color: white;
 }
 
@@ -239,10 +237,6 @@ iframe {
 
     #footer {
         margin-bottom: 2rem;
-    }
-
-    #invert {
-        margin-left: 2rem;
     }
 
     #splash li {
