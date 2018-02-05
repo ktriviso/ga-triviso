@@ -28,6 +28,19 @@ class App extends Component {
         Splash.style.display = 'none'
     }
 
+    componentDidMount(){
+        function changeBackgroundColor(){
+            const invertButton = document.getElementById("invert")
+            invertButton.addEventListener('click', function(e){
+                document.body.classList.toggle('invert-active')
+            })
+        }
+
+        window.addEventListener('load', function(){
+            changeBackgroundColor()
+        })
+    }
+
     render() {
         let activeComponent
         if(this.state.active_component === 'About'){
