@@ -1,23 +1,17 @@
-import React, {Component} from 'react'
+import React from 'react';
 
-export default class About extends Component {
+export const About = (props) => (
+    <section id="about">
+        <div>
+            <p className="title">About</p>
 
-    render() {
+            <p>NYC based Software Engineer student<br/>Formally educated in HTML, CSS, Javascript, JQuery, API implementation, GitHub, CMS, Firebase, Heroku and introductory React.</p>
 
-        return (
-            <section id="about">
-                <div>
-                    <p className="title">About</p>
+            <hr className="small-divider"/>
 
-                    <p>NYC based Software Engineer student<br/>Formally educated in HTML, CSS, Javascript, JQuery, API implementation, GitHub, CMS, Firebase, Heroku and introductory React.</p>
+            <p className="ptag-edit">Front-end Web Development | General Assembly<br/>
+            Javascript 101 New York City | General Assembly<br/>Hack Reactor Structured Study Program | Hack Reactor</p>
 
-                    <hr className="small-divider"/>
-
-                    <p className="ptag-edit">Front-end Web Development | General Assembly<br/>
-                    Javascript 101 New York City | General Assembly<br/>Hack Reactor Structured Study Program | Hack Reactor</p>
-
-                </div>
-            </section>
-        )
-    }
-}
+        </div>
+    </section>
+)
