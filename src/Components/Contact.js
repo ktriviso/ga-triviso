@@ -13,6 +13,6 @@ export const Contact = (props) => (
                 <figure><a href="https://paulproduction.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="/images/paul.jpg" alt=""/></a></figure>
             </div>
         </div>
-        <p className="ptag-edit">In search of collaborative projects, internships, employment oppertunities and networking events.<br/>Please contact krista.triviso91@gmail.com</p>
+        <p className="ptag-edit">In search of collaborative projects, internships, employment opportunities and networking events.<br/>Please contact krista.triviso91@gmail.com</p>
     </section>
 )
