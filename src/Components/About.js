@@ -5,12 +5,11 @@ export const About = (props) => (
         <div>
             <p className="title">About</p>
 
-            <p>NYC based Software Engineer student<br/>Formally educated in HTML, CSS, Javascript, JQuery, API implementation, GitHub, CMS, Firebase, Heroku and introductory React.</p>
+            <p>NYC based Full-Stack Developer<br/>Developed and designed applications both independently and as a team. Fluent in Javascript, React, Ruby, Ruby on Rails, HTML5, CSS3, jQuery, SQL, PostsgreSQL, APIs, GitHub, CMS integration, Firebase, Axios/Fetch, Flux, Express, Node, Heroku, Trello, and test-driven development.</p>
 
             <hr className="small-divider"/>
 
-            <p className="ptag-edit">Front-end Web Development | General Assembly<br/>
-            Javascript 101 New York City | General Assembly<br/>Hack Reactor Structured Study Program | Hack Reactor</p>
+            <p className="ptag-edit bold">In search of collaborative projects, internships, employment opportunities and networking events. Please contact krista.triviso91@gmail.com</p>
 
         </div>
     </section>

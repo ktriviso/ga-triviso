@@ -21,6 +21,10 @@ body {
     text-align: center;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body.invert-active p, body.invert-active .title, body.invert-active .fa, body.invert-active .button, body.invert-active h1{
     color: white!important;
 }
@@ -98,10 +102,10 @@ hr {
     width: 2rem;
     border-radius: 50%;
     border: solid 1px #CCCCCC;
-    color: black;margin-right: .3rem;
+    margin-right: .3rem;
 }
 
-.fa {
+a {
     color: #474747!important;
 }
 
@@ -114,11 +118,11 @@ hr {
     font-size: 1em;
     line-height: 1.875;
     font-weight: 400;
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
 }
 
 #home {
-    padding: 1.5rem;
+    padding: 1.3rem;
 }
 
 #home h1 {
@@ -141,11 +145,17 @@ hr {
     display: inline-block;
 }
 
+.bold {
+    font-weight: 400;
+}
+
 .edit img {
     width: 9rem;
     border-radius: 100%;
     margin: 20px;
     margin: 0;
+    height: 144px;
+    width: 144px;
 }
 
 /*hover effect on the images*/
@@ -161,13 +171,24 @@ hr {
 }
 /*end of hover effect*/
 
+.hover {
+    width: 50%;
+    overflow-y: scroll;
+    height: 200px;
+    margin: auto;
+
+}
+
 #works .title {
     margin-bottom: 0;
 }
 
 .ptag-edit {
     margin-top: 0;
-    padding-bottom: 1rem;
+}
+
+.scroll {
+    margin-top: -.5rem!important;
 }
 
 #contact .title {
@@ -228,6 +249,12 @@ iframe {
 
 #closeModalButton:hover {
     background-color: #CCCCCC;
+}
+
+a#github {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
 }
 
 @media only screen and (max-width: 700px) {
