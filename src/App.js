@@ -53,7 +53,7 @@ class App extends Component {
 
         return (
             <div>
-                <Splash enterSite={this.removeSplash.bind(this)}/>
+                
                 <Header setActiveComponent={this.setActiveComponent.bind(this)}/>
                 {activeComponent}
                 <Footer/>
