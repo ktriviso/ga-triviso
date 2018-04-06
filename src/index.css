@@ -201,7 +201,8 @@ a {
 }
 
 .button:hover, #footer li:hover {
-    background-color: #CCCCCC;
+    background-image: linear-gradient(to top, #CCCCCC 0%, #eef1f5 100%);
+    border: none;
 }
 
 #splash {
