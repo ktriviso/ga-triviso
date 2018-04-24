@@ -12,14 +12,19 @@ export const Contact = (props) => (
             <div className="edit">
                 <figure><a href="https://paulproduction.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="/images/paul.jpg" alt=""/></a></figure>
             </div>
+
+            <div className="edit">
+                <figure><a href="http://collision-game.netlify.com/" target="_blank" rel="noopener noreferrer"><img src="/images/collision.png" alt=""/></a></figure>
+            </div>
+            <div className="edit">
+                <figure><a href="https://vice-feed.herokuapp.com/login" target="_blank" rel="noopener noreferrer"><img src="/images/vice.png" alt=""/></a></figure>
+            </div>
+
             <div className="edit">
                 <figure><a href="https://trump-project.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="/images/trump.png" alt=""/></a></figure>
             </div>
             <div className="edit">
                 <figure><a href="https://typer-project.netlify.com/" target="_blank" rel="noopener noreferrer"><img src="/images/typer.png" alt=""/></a></figure>
-            </div>
-            <div className="edit">
-                <figure><a href="http://collision-game.netlify.com/" target="_blank" rel="noopener noreferrer"><img src="/images/collision.png" alt=""/></a></figure>
             </div>
         </div>
         <span>scroll me</span><br/>

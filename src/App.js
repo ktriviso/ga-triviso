@@ -53,7 +53,7 @@ class App extends Component {
 
         return (
             <div>
-                
+
                 <Header setActiveComponent={this.setActiveComponent.bind(this)}/>
                 {activeComponent}
                 <Footer/>
