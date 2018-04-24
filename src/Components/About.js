@@ -5,7 +5,7 @@ export const About = (props) => (
         <div>
             <p className="title">About</p>
 
-            <p>NYC based Full-Stack Developer<br/>Developed and designed applications both independently and as a team. Fluent in Javascript, React, Ruby, Ruby on Rails, HTML5, CSS3, jQuery, SQL, PostsgreSQL, APIs, GitHub, CMS integration, Firebase, Axios/Fetch, Flux, Express, Node, Heroku, Trello, and test-driven development.</p>
+            <p>NYC based Full-Stack Developer<br/>Developed and designed applications both independently and as a team. Fluent in the following <b>Languages</b> Javascript, Ruby, SQL, HTML5, CSS3 <b>Frameworks and Libraries</b> React, JQuery, PostsgreSQL, Node, Materialize, Bootstrap, Redux, Ruby on Rails, Express <b>Deployment and Services</b> GitHub, Firebase, Heroku, Netlify <b>Tools</b> CMS, NPM, Axios, Fetch, Flux, Trello, CSS animations, Nodemailer, Bcrypt.</p>
 
             <hr className="small-divider"/>
 
