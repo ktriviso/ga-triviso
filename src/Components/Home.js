@@ -7,7 +7,7 @@ export const Home = (props) => (
         <hr className="small-divider"/>
         <p>Full-Stack Web Developer<br/>Brooklyn, New York</p>
         <div className="css-typing">
-            <p>triviso: ~ $ Hello I am Krista. Hire me!
+            <p>triviso: ~ $ Hello my name is Krista. Hire me!
             <span id="cursor-1"> | </span>
             </p>
         </div>
