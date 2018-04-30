@@ -22,7 +22,7 @@ export default class about extends React.Component {
                     <p className="title">About</p>
 
                     <p>
-                    NYC based Full-stack developer experienced in deploying and building websites from wire-frame to production. Comprehensive understanding of class-based object oriented programming, RESTful architecture and NERD stack (Node, Express, React, SQL). Networking opportunist and creative visionary with a perpetual drive to learn new languages and tools.
+                    NYC based Full-stack developer experienced in deploying and building websites from wire-frame to production. Comprehensive understanding of class-based object oriented programming, RESTful architecture and NERD stack (Node, Express, React, SQL).
                     </p>
 
                     <div className="about-technologies">
@@ -73,3 +73,5 @@ export default class about extends React.Component {
 //
 //
 // Fluent in the following <b>Languages</b> Javascript, Ruby, SQL, HTML5, CSS3 <b>Frameworks and Libraries</b> React, JQuery, PostsgreSQL, Node, Materialize, Bootstrap, Redux, Ruby on Rails, Express <b>Deployment and Services</b> GitHub, Firebase, Heroku, Netlify <b>Tools</b> CMS, NPM, Axios, Fetch, Flux, Trello, Nodemailer, Bcrypt.
+
+ // Networking opportunist and creative visionary with a perpetual drive to learn new languages and tools.
