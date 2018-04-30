@@ -54,6 +54,13 @@ export default class about extends React.Component {
                         </ul>
                     </div>
 
+                    <div id="mobile">
+                        <span>scroll me</span><br/>
+                        <div className="bounce">
+                        <i className="fas fa-angle-down "></i>
+                        </div>
+                    </div>
+
                     <hr className="small-divider"/>
 
                     <p className="ptag-edit">In search of collaborative projects, internships, employment opportunities and networking events. Please contact krista.triviso91@gmail.com</p>
