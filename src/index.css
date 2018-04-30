@@ -70,7 +70,7 @@ hr {
 #header {
     height: 70px;
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 3rem;
 }
 
 #header li {
@@ -145,10 +145,6 @@ a {
     display: inline-block;
 }
 
-.bold {
-    font-weight: 400;
-}
-
 .edit img {
     width: 9rem;
     border-radius: 100%;
@@ -177,6 +173,47 @@ a {
     height: 200px;
     margin: auto;
 
+}
+
+.about-technologies{
+    height: 10rem;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.about-technologies ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: scroll;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    animation: scroll infinite 30s alternate;
+    animation-timing-function: linear;
+}
+
+.about-technologies img {
+    width: 5rem!important;
+    margin-bottom: -1rem;
+    border-radius: 0%!important;
+    margin-top: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(-1rem);
+  }
+
+  50% {
+    transform: translateY(-87%);
+  }
+
+  100% {
+    transform: translateY(-2rem);
+  }
 }
 
 #works .title {
@@ -256,6 +293,17 @@ a#github {
     text-decoration: none;
     font-weight: 400;
     color: black;
+}
+
+.bounce {
+     animation: bounce .5s infinite ease-in-out alternate;
+     margin-top: -.5rem;
+     margin-bottom: .5rem;
+}
+
+/* bouncing arrow */
+@keyframes bounce {
+  100% { transform: translate3d(0, .5rem, 0); }
 }
 
 @media only screen and (max-width: 700px) {

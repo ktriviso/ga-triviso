@@ -28,7 +28,9 @@ export const Contact = (props) => (
             </div>
         </div>
         <span>scroll me</span><br/>
-        <i className="fas fa-angle-down"></i>
+        <div className="bounce">
+        <i className="fas fa-angle-down "></i>
+        </div>
         <p className="ptag-edit scroll">The repositories for the following applicaitons are available on <a id="github" href="https://github.com/ktriviso">Github</a> and are hosted on Netlify.</p>
     </section>
 )

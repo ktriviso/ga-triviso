@@ -4,7 +4,7 @@ import './index.css';
 import {Header} from './Components/Partials/Header.js';
 import {Footer} from './Components/Partials/Footer.js';
 import {Home} from './Components/Home.js';
-import {About} from './Components/About.js';
+import About from './Components/About.js';
 import {Contact} from './Components/Contact.js';
 import {Splash} from './Components/Splash.js'
 
@@ -39,6 +39,7 @@ class App extends Component {
         window.addEventListener('load', function(){
             changeBackgroundColor()
         })
+
     }
 
     render() {
