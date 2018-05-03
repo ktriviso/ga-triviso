@@ -10,7 +10,7 @@ export const Contact = (props) => (
                 <figure><a href="https://voxfelis.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="/images/aleka2.jpg" alt=""/></a></figure>
             </div>
             <div className="edit">
-                <figure><a href="https://paulproduction.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="/images/paul.jpg" alt=""/></a></figure>
+                <figure><a href="https://www.pr-programming.com/" target="_blank" rel="noopener noreferrer"><img src="/images/paul.jpg" alt=""/></a></figure>
             </div>
 
             <div className="edit">
