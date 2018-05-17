@@ -32,6 +32,8 @@ export default class about extends React.Component {
                             <li><img src="/images/sql.svg" alt=""/><br/>SQL</li>
                             <li><img src="/images/html.png" alt=""/><br/>HTML5</li>
                             <li><img src="/images/css.png" alt=""/><br/>CSS3</li>
+                            <li><img src="/images/sass.png" alt=""/><br/>Sass</li>
+                            <li><img src="/images/bulma.png" alt=""/><br/>Bulma</li>
                             <li><img src="/images/react.png" alt=""/><br/>React</li>
                             <li><img src="/images/node.png" alt=""/><br/>Node</li>
                             <li><img src="/images/jquery.png" alt=""/><br/>JQuery</li>
@@ -44,6 +46,7 @@ export default class about extends React.Component {
                             <li><img src="/images/github.png" alt=""/><br/>Github</li>
                             <li><img src="/images/firebase.png" alt=""/><br/>Firebase</li>
                             <li><img src="/images/heroku.png" alt=""/><br/>Heroku</li>
+                            <li><img src="/images/surge.png" alt=""/><br/>Surge</li>
                             <li><img src="/images/netlify.png" alt=""/><br/>Netlify</li>
                             <li><img src="/images/contentful.png" alt=""/><br/>Contentful</li>
                             <li><img src="/images/npm.png" alt=""/><br/>NPM</li>
