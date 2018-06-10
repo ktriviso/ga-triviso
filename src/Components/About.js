@@ -41,6 +41,7 @@ export default class about extends React.Component {
                             <li><img src="/images/redux.png" alt=""/><br/>Redux</li>
                             <li><img src="/images/rails.png" alt=""/><br/>Ruby on Rails</li>
                             <li><img src="/images/express.Default" alt=""/><br/>Express</li>
+                            <li><img src="/images/socket-io.svg" alt=""/><br/>Socket.io</li>
                             <li><img src="/images/materialize.png" alt=""/><br/>Materialize</li>
                             <li><img src="/images/bootstrap.png" alt=""/><br/>Bootstrap</li>
                             <li><img src="/images/github.png" alt=""/><br/>Github</li>
