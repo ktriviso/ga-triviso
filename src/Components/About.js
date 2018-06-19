@@ -52,7 +52,6 @@ export default class about extends React.Component {
                             <li><img src="/images/contentful.png" alt=""/><br/>Contentful</li>
                             <li><img src="/images/npm.png" alt=""/><br/>NPM</li>
                             <li><img src="/images/fetch.png" alt=""/><br/>Fetch</li>
-                            <li><img src="/images/flux.jpg" alt=""/><br/>Flux</li>
                             <li><img src="/images/trello.png" alt=""/><br/>Trello</li>
                         </ul>
                     </div>
