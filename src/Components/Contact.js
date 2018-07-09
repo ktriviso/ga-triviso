@@ -14,6 +14,10 @@ export const Contact = (props) => (
             </div>
 
             <div className="edit">
+                <figure><a href="https://ga-profile-triviso.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="/images/calendar.png" alt=""/></a></figure>
+            </div>
+
+            <div className="edit">
                 <figure><a href="http://collision-game.netlify.com/" target="_blank" rel="noopener noreferrer"><img src="/images/collision.png" alt=""/></a></figure>
             </div>
             <div className="edit">
